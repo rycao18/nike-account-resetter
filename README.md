@@ -1,5 +1,13 @@
-Nike Account Resetter by @ayyitsc9
+Nike Account Resetter by @rycao18
+Twitter: https://twitter.com/rycao18
+Discord: rycao18#2955
+
+Forked from @ayyitsc9
 ==========
+
+Major differences from @ayyitsc9: Removed exe and only gave python code for maximum transparency
+
+
 
 - Main Function : Reset nike accounts by scraping your email for reset emails (Fully automated)
 - Secondary Function :  Send nike reset email to emails in emails_to_send_to.txt
@@ -10,9 +18,9 @@ Installation and Set Up
 ------------
 Click Code > Download ZIP > Create a folder on your PC > Extract All Files to that folder
 
-- Setup settings.json. For the majority of you will only need edit the following settings : username, password, new_account_password, use_proxies
+- Setup your settings.json file. You will need to rename the samplesettings.json file to settings.json
+- For the majority of you will only need edit the following settings : username, password, new_account_password, use_proxies
 - I added extra settings for those that are familiar with them (headless, timeout, max_browser_threads)
-- If you do not code, I would recommend just deleting the app.py file and running the app.exe file
 
 
 Warnings/ Disclaimers
@@ -45,13 +53,15 @@ Guide
 
 __[1] Nike Account Resetter__
 
-- Set up settings.json (Uses all values in settings.json, make sure it's correct value and value type!)
+- Make sure to rename samplesettings.json to settings.json
+- Set up your settings.json (Uses all values in settings.json, make sure it's correct value and value type!)
 - Search how to enable IMAP access for your specific email provider
 - For gmail users : https://myaccount.google.com/lesssecureapps Enable this and https://mail.google.com/mail/u/0/#settings/fwdandpop Enable IMAP here 
 - You can now run [1] Nike Account Resetter
 
 __[2] Reset Email Sender__
 
+- Make sure to rename samplesettings.json to settings.json
 - Set up settings.json (Does not use mail_domain, email_folder_to_search, username, password, new_account_password)
 - Load emails you want to send reset emails to on email_sender folder > send_reset_emails_to.txt (One email per line)
 - This does not access your email in any way so it can be ran without toggle IMAP/ Less secure app access
@@ -59,6 +69,7 @@ __[2] Reset Email Sender__
 
 __[3] Seen Reset Email Deleter__
 
+- Make sure to rename samplesettings.json to settings.json
 - Set up settings.json  (Does not use mail_domain, email_folder_to_search, username, password, new_account_password)
 - Search how to enable IMAP access for your specific email provider
 - For gmail users : https://myaccount.google.com/lesssecureapps Enable this and https://mail.google.com/mail/u/0/#settings/fwdandpop Enable IMAP here 
@@ -70,11 +81,9 @@ __[3] Seen Reset Email Deleter__
 Other
 -----
 
-- Windows Security or your antivirus may flag the .exe file. This is normal. Just make exception for it to run
 - Bot will create success and failed output files when running [1] and [2] if they are not already present
 - [3] does not create a text file with logs. It will only log to console
 - Create a list of the emails you want to send reset emails to and load them in send_reset_emails_to.txt (One email per line) and run [2]
-- Have any questions? DM me on twitter! I will try to get back to everyone
 
 
 A Note from Me
@@ -82,9 +91,7 @@ A Note from Me
 You are not required to support me in any way but if you would like to do so I will list ways to below! Thank you everyone for giving my script a try and I hope you found it useful ♥ I'm just about to start diving into javascript and bot protection, if you would like to help/ mentor me feel free to dm! 👀😅
 
  If you would like to support me, you can do so by :
-- Following me on twitter https://twitter.com/ayyitsc9
-- Comment on my legit check https://twitter.com/ayyitsc9/status/996240726286479360
+- Following me on twitter https://twitter.com/rycao18
 - Spread the word to your friends and groups
-- Cashapp $BloomCord
 
-I appreciate you if you do any of these! Shout out to @dc_han, he brought this up to me since he was struggling with all the resetting 😂
+I appreciate you if you do any of these!
